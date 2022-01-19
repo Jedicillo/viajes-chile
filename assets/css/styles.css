@@ -1,0 +1,121 @@
+/*
+    font-family: 'Cabin', sans-serif;
+
+    font-family: 'Lobster', cursive;
+*/
+
+#img-logo{
+    height: 30px;
+}
+
+.navbar-inner{
+    background: transparent;
+}
+.navbar p{
+    color: #FFFFFF;
+}
+
+.casi-negro{
+    background-color: #373A3C;
+    color: #FFFFFF;
+}
+
+.cabin-regular{
+    font-family: 'cabin';
+    font-weight: 400;
+}
+
+.cabin-bold{
+    font-family: 'cabin';
+    font-weight: 700;
+}
+
+.lobster-regular{
+    font-family: 'lobster';
+    font-weight: 400;
+}
+
+.centrado{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-evenly;*/
+    justify-content: center;
+}
+
+.texto-centrado{
+    text-align: center;
+}
+
+
+.carousel .item {
+    height: 500px;
+}
+  
+.item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+
+.subrayado-titulo{
+    text-underline-offset: 1.1rem;
+}
+
+.sin-marca{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.suscribete{
+    background-color: #DC3545;
+    color: #FFFFFF;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.suscribete button{
+    background-color: #DC3545;
+    color: #FFFFFF;
+    border-color: #DDDDDD;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+.suscribete button:hover{
+    background-color: #FFFFFF;
+    color: #373A3C;
+    border-color: #DDDDDD;
+}
+
+footer{
+    background-color: #373A3C;
+    color: #FFFFFF;
+}
+
+.centrado-h{
+    display: flex;
+    justify-content: center;
+}
+
+.tooltip .tooltip-inner {
+    background-color: #373A3C;
+}
+  
+.bs-tooltip-bottom .tooltip-arrow::before {
+    border-bottom-color: #373A3C;
+}
+
+.bs-tooltip-end .tooltip-arrow::before {
+    border-right-color: #373A3C;
+}
+
+.btn-outline-dark:hover{
+    background-color: #373A3C;
+}
+
+.esconder-esto{
+    display: none;
+}
