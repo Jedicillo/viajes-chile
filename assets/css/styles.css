@@ -3,6 +3,10 @@
 
     font-family: 'Lobster', cursive;
 */
+body{
+    color: #FFFFFF;
+    background-color: #000000;
+}
 
 #img-logo{
     height: 30px;
@@ -46,6 +50,14 @@
     text-align: center;
 }
 
+.iconos-quienesomos{
+    background-color: aqua;
+}
+
+.iconos-quienesomos i{
+    font-size: 40px;
+    color: #FFFFFF;
+}
 
 .carousel .item {
     height: 500px;
