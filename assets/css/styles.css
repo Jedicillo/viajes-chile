@@ -48,7 +48,11 @@ body{
 }
 
 .iconos-quienessomos{
-    font-size: 40px;
+    font-size: 30px;
+}
+
+div.card{
+    background-color: #000000;
 }
 
 .img-destacados{
@@ -63,7 +67,6 @@ body{
 .icono-footer{
     height: 40px;
 }
-
 
 .color-secundario{
     background-color: #2DE5E2;
@@ -85,12 +88,12 @@ body{
     background-color: #373A3C;
 }
   
-.bs-tooltip-bottom .tooltip-arrow::before {
-    border-bottom-color: #373A3C;
+.bs-tooltip-top .tooltip-arrow::before {
+    border-top-color: #373A3C;
 }
 
 .bs-tooltip-end .tooltip-arrow::before {
-    border-right-color: #373A3C;
+    border-top-color: #373A3C;
 }
 
 .btn-outline-dark:hover{
@@ -99,4 +102,8 @@ body{
 
 .esconder-esto{
     display: none;
+}
+
+.links-footer{
+    color: #FFFFFF !important;
 }
