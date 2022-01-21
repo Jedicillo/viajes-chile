@@ -1,39 +1,19 @@
 $(function(){
-    $("#mostrar-ocultar").hover(
+    $("a.nav-link").on("click",
         function(){
-            //alert(`Pasa por el hover display: ${$("#contenedor-imagen").css('display')}`);
-            $("#contenedor-imagen").css({'display':'block'})
-        },
-        function(){
-            $("#contenedor-imagen").css('display', 'none')
+            //console.log(this.id)
+            $("a.nav-link").removeClass('active');
+            $(this).addClass('active');
         }
     );
 
-    $("button.enviar-correo").click(
+    $("#controlFormEnviar").on("click",
         function(){
-            alert("Correo Enviado");
-        }
-    );
-
-    $("p.pinchar-aqui").click(
-        function(){
-            //console.log(`Pasa por el hover display: ${$("#contenedor-imagen").css('display')}`);
-            $("p.esconder-esto").toggle();
-        }
-    );
-
-    var css_ingredientes = $("#ingredientes").attr('class');
-    var css_preparacion = $("#preparacion").attr('class');
-    $("#ingredientes").on("dblclick",
-        function(){
-            $("#preparacion").attr('class', css_preparacion);
-            $("#ingredientes").toggleClass('text-danger');
-        }
-    );
-    $("#preparacion").on("dblclick",
-    function(){
-            $("#ingredientes").attr('class', css_ingredientes);
-            $("#preparacion").toggleClass('text-danger');
+            var nombre = $("#controlFormNombre").val();
+            alert(`¡Gracias por tu mensaje ${nombre}!`);
+            $("#controlFormNombre").val('');
+            $("#controlFormAsunto").val('');
+            $("#controlFormMensaje").val('');
         }
     );
 
