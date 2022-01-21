@@ -3,6 +3,10 @@
 
     font-family: 'Lobster', cursive;
 */
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     color: #FFFFFF;
     background-color: #000000;
@@ -59,17 +63,21 @@ body{
     color: #FFFFFF;
 }
 
-.carousel .item {
-    height: 500px;
+.icono-footer{
+    height: 40px;
 }
+
+/* .carousel .item {
+    height: 500px;
+} */
   
-.item img {
+/* .item img {
     position: absolute;
     object-fit:cover;
     top: 0;
     left: 0;
     min-height: 500px;
-}
+} */
 
 
 .subrayado-titulo{
