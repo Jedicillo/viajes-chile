@@ -3,6 +3,14 @@
 
     font-family: 'Lobster', cursive;
 */
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    color: #FFFFFF;
+    background-color: #000000;
+}
 
 #img-logo{
     height: 30px;
@@ -11,14 +19,7 @@
 .navbar-inner{
     background: transparent;
 }
-.navbar p{
-    color: #FFFFFF;
-}
 
-.casi-negro{
-    background-color: #373A3C;
-    color: #FFFFFF;
-}
 
 .cabin-regular{
     font-family: 'cabin';
@@ -46,17 +47,21 @@
     text-align: center;
 }
 
-
-.carousel .item {
-    height: 500px;
+.iconos-quienessomos{
+    font-size: 40px;
 }
-  
-.item img {
-    position: absolute;
-    object-fit:cover;
-    top: 0;
-    left: 0;
-    min-height: 500px;
+
+.img-destacados{
+    height: 190px;
+    width: auto;
+}
+
+#destacados .card .col-12{
+    max-width: 50%;
+}
+
+.icono-footer{
+    height: 40px;
 }
 
 
@@ -70,20 +75,21 @@
     padding: 0;
 }
 
-.suscribete{
-    background-color: #DC3545;
-    color: #FFFFFF;
+#contacto{
     padding-top: 100px;
     padding-bottom: 150px;
 }
 
-.suscribete button{
-    background-color: #DC3545;
-    color: #FFFFFF;
+.color-secundario{
+    background-color: #2DE5E2;
+}
+
+#contacto button{
     border-color: #DDDDDD;
     padding-right: 3rem;
     padding-left: 3rem;
 }
+
 .suscribete button:hover{
     background-color: #FFFFFF;
     color: #373A3C;
@@ -92,7 +98,6 @@
 
 footer{
     background-color: #373A3C;
-    color: #FFFFFF;
 }
 
 .centrado-h{
